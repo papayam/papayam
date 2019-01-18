@@ -4,7 +4,6 @@ import com.github.papayam.command.*;
 import com.github.papayam.core.DriverManagerFactory;
 import com.github.papayam.utils.ElementUtil;
 import com.github.papayam.utils.SwipeUtil;
-import com.papayam.framework.command.*;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
