@@ -98,6 +98,11 @@
                                     <resource>META-INF/spring.schemas</resource>
                                 </transformer>
                             </transformers>
+                            <artifactSet>
+                                <excludes>
+                                    <exclude>*:*:jar:</exclude>
+                                </excludes>
+                            </artifactSet>
                         </configuration>
                     </execution>
                 </executions>
