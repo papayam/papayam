@@ -1,0 +1,8 @@
+#
+.idea/*
+logs/*
+target/*
+src/test/*
+*.png
+demo.iml
+dependency-reduced-pom.xml

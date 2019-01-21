@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.papayam</groupId>
     <artifactId>papayam</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>papayam</name>
     <description>Automation for iOS, Android, H5, and REST services. </description>
@@ -100,7 +100,63 @@
                             </transformers>
                             <artifactSet>
                                 <excludes>
-                                    <exclude>*:*:jar:</exclude>
+                                    <exclude>log4j:log4j:jar:</exclude>
+                                    <exclude>io.appium:java-client:jar:</exclude>
+                                    <exclude>io.cucumber:cucumber-java:jar:</exclude>
+                                    <exclude>io.cucumber:cucumber-testng:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-java:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-chrome-driver:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-edge-driver:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-firefox-driver:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-ie-driver:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-opera-driver:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-remote-driver:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-safari-driver:jar:</exclude>
+                                    <exclude>net.bytebuddy:byte-buddy:jar:</exclude>
+                                    <exclude>org.apache.commons:commons-exec:jar:</exclude>
+                                    <exclude>commons-codec:commons-codec:jar:</exclude>
+                                    <exclude>commons-logging:commons-logging:jar:</exclude>
+                                    <exclude>com.google.guava:guava:jar:</exclude>
+                                    <exclude>com.google.code.findbugs:jsr305:jar:</exclude>
+                                    <exclude>org.checkerframework:checker-compat-qual:jar:</exclude>
+                                    <exclude>com.google.errorprone:error_prone_annotations:jar:</exclude>
+                                    <exclude>com.google.j2objc:j2objc-annotations:jar:</exclude>
+                                    <exclude>org.codehaus.mojo:animal-sniffer-annotations:jar:</exclude>
+                                    <exclude>org.apache.httpcomponents:httpcore:jar:</exclude>
+                                    <exclude>com.squareup.okhttp3:okhttp:jar:</exclude>
+                                    <exclude>com.squareup.okio:okio:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-support:jar:</exclude>
+                                    <exclude>org.seleniumhq.selenium:selenium-api:jar:</exclude>
+                                    <exclude>com.google.code.gson:gson:jar:</exclude>
+                                    <exclude>org.apache.httpcomponents:httpclient:jar:</exclude>
+                                    <exclude>cglib:cglib:jar:</exclude>
+                                    <exclude>org.ow2.asm:asm:jar:</exclude>
+                                    <exclude>org.apache.ant:ant:jar:</exclude>
+                                    <exclude>org.apache.ant:ant-launcher:jar:</exclude>
+                                    <exclude>commons-validator:commons-validator:jar:</exclude>
+                                    <exclude>commons-beanutils:commons-beanutils:jar:</exclude>
+                                    <exclude>commons-digester:commons-digester:jar:</exclude>
+                                    <exclude>commons-collections:commons-collections:jar:</exclude>
+                                    <exclude>org.apache.commons:commons-lang3:jar:</exclude>
+                                    <exclude>commons-io:commons-io:jar:</exclude>
+                                    <exclude>org.springframework:spring-context:jar:</exclude>
+                                    <exclude>org.springframework:spring-aop:jar:</exclude>
+                                    <exclude>org.springframework:spring-beans:jar:</exclude>
+                                    <exclude>org.springframework:spring-core:jar:</exclude>
+                                    <exclude>org.springframework:spring-jcl:jar:</exclude>
+                                    <exclude>org.springframework:spring-expression:jar:</exclude>
+                                    <exclude>org.aspectj:aspectjweaver:jar:</exclude>
+                                    <exclude>org.openpnp:opencv:jar:</exclude>
+                                    <exclude>io.cucumber:cucumber-core:jar:</exclude>
+                                    <exclude>io.cucumber:cucumber-html:jar:</exclude>
+                                    <exclude>io.cucumber:gherkin:jar:</exclude>
+                                    <exclude>io.cucumber:tag-expressions:jar:</exclude>
+                                    <exclude>io.cucumber:cucumber-expressions:jar:</exclude>
+                                    <exclude>io.cucumber:datatable:jar:</exclude>
+                                    <exclude>io.cucumber:datatable-dependencies:jar:</exclude>
+                                    <exclude>org.testng:testng:jar:</exclude>
+                                    <exclude>com.beust:jcommander:jar:</exclude>
+                                    <exclude>org.apache-extras.beanshell:bsh:jar:</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>

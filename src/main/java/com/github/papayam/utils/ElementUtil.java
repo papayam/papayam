@@ -53,7 +53,7 @@ public class ElementUtil {
         } catch (Exception e) {
             // TODO: handle exception
             logger.debug("element not found-->");
-            e.printStackTrace();
+            logger.debug(e.getMessage());
             return null;
         }
     }
@@ -79,8 +79,9 @@ public class ElementUtil {
             return elements;
         } catch (Exception e) {
             // TODO: handle exception
-            logger.debug("elements not found-->" + e.getMessage());
-            throw new RuntimeException(e.getMessage());
+            logger.debug("elements not found-->");
+            logger.debug(e.getMessage());
+            return null;
         }
     }
 
