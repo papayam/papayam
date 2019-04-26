@@ -11,15 +11,6 @@ public class DataUtil {
 
     private String parseParameter(String arg) {
         switch (arg) {
-            case "generateUsername":
-                arg = new NumberUtil().generateUsername();
-                break;
-            case "generatePassword":
-                arg = new NumberUtil().generatePassword();
-                break;
-            case "generateLoginName":
-                arg = new NumberUtil().generateLoginName();
-                break;
             case "generateTime":
                 arg = new NumberUtil().generateTime();
                 break;

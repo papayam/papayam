@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.papayam</groupId>
     <artifactId>papayam</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
     <name>papayam</name>
     <description>Automation for iOS, Android, H5, and REST services. </description>
@@ -58,6 +58,16 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.55</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>3.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.sonatype.oss</groupId>
@@ -157,6 +167,22 @@
                                     <exclude>org.testng:testng:jar:</exclude>
                                     <exclude>com.beust:jcommander:jar:</exclude>
                                     <exclude>org.apache-extras.beanshell:bsh:jar:</exclude>
+                                    <exclude>com.alibaba:fastjson:jar:</exclude>
+                                    <exclude>io.rest-assured:rest-assured:jar:</exclude>
+                                    <exclude>org.codehaus.groovy:groovy:jar:</exclude>
+                                    <exclude>org.codehaus.groovy:groovy-xml:jar:</exclude>
+                                    <exclude>org.apache.httpcomponents:httpmime:jar:</exclude>
+                                    <exclude>org.hamcrest:hamcrest-core:jar:</exclude>
+                                    <exclude>org.hamcrest:hamcrest-library:jar:</exclude>
+                                    <exclude>org.ccil.cowan.tagsoup:tagsoup:jar:</exclude>
+                                    <exclude>io.rest-assured:json-path:jar:</exclude>
+                                    <exclude>org.codehaus.groovy:groovy-json:jar:</exclude>
+                                    <exclude>io.rest-assured:rest-assured-common:jar:</exclude>
+                                    <exclude>io.rest-assured:xml-path:jar:</exclude>
+                                    <exclude>javax.xml.bind:jaxb-api:jar:</exclude>
+                                    <exclude>com.sun.xml.bind:jaxb-osgi:jar:</exclude>
+                                    <exclude>org.apache.sling:org.apache.sling.javax.activation:jar:</exclude>
+                                    <exclude>javax.activation:activation:jar:</exclude>
                                 </excludes>
                             </artifactSet>
                         </configuration>
