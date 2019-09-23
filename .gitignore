@@ -4,5 +4,5 @@ logs/*
 target/*
 src/test/*
 *.png
-papayam.iml
+demo.iml
 dependency-reduced-pom.xml
