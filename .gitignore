@@ -2,7 +2,8 @@
 .idea/*
 logs/*
 target/*
+framework.iml
 src/test/*
 *.png
-demo.iml
 dependency-reduced-pom.xml
+README.md
