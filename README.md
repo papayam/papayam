@@ -1,11 +1,3 @@
-# 使用方法
-## 在pom.xml文件中引用即可
-    <dependency>
-        <groupId>com.github.papayam</groupId>
-        <artifactId>papayam</artifactId>
-        <version>1.0.1</version>
-    </dependency>
----
 ### 框架介绍
     Java + Appium + cucumber + rest-assured
         •  使用Java作为项目编程语言
@@ -37,3 +29,13 @@
 | 滑动屏幕 | When swipe"123,234,345,456,600" | 滑动屏幕，可以有2个或5个参数。有2个参数的时候：参数1：方向参数，值为up、down、left、right。参数2：滑动时间。有5个参数的时候：参数1：起始坐标X。参数2：起始坐标Y。参数3：终点坐标X。参数4：终点坐标Y。参数5：滑动时间（毫秒） |
 | 休眠 | When sleep"2" | 单位秒 |
 | 截图 | When takeScreen"accessibility,btn_enter,abc" | 截图，可以有1个、2个或3个参数。有3个参数的时候：参数1：控件类型。参数2：类型取值。参数3：图片名称 |
+---
+### 使用方法
+在pom.xml文件中引用即可
+  ```
+    <dependency>
+        <groupId>com.github.papayam</groupId>
+        <artifactId>papayam</artifactId>
+        <version>1.0.1</version>
+    </dependency>
+  ```
