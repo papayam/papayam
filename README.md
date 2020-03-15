@@ -29,7 +29,18 @@
 | 滑动屏幕 | When swipe"123,234,345,456,600" | 滑动屏幕，可以有2个或5个参数。有2个参数的时候：参数1：方向参数，值为up、down、left、right。参数2：滑动时间。有5个参数的时候：参数1：起始坐标X。参数2：起始坐标Y。参数3：终点坐标X。参数4：终点坐标Y。参数5：滑动时间（毫秒） |
 | 休眠 | When sleep"2" | 单位秒 |
 | 截图 | When takeScreen"accessibility,btn_enter,abc" | 截图，可以有1个、2个或3个参数。有3个参数的时候：参数1：控件类型。参数2：类型取值。参数3：图片名称 |
-
+| 图片对比 | When CompareImage"abc1,abc2,98,false" | 参数1：图片名称。参数2：图片名称。参数3：相似度，最大值100。参数4：对比结果大于相似度，取true；反之取false |
+| 清空输入框 | When clear"accessibility,edit_number,2" | 清空输入框，可传2或3个参数。参数1：控件类型。参数2：类型取值。参数3：如果是list，代表查找的index索引值 |
+| 输入文本 | When input"accessibility,edit_number,2,11111111" | 输入文本，可传3个或4个参数。参数1：控件类型。参数2：类型取值。参数3：如果是list，代表查找的index索引值。参数4：输入文本值 |
+| 获取sms短信 | When get_sms"72166668581" | 参数1：通过手机号查询sms短信。若参数为空，则查询上一次随机生成的手机号的sms短信 |
+| 断言控件存在 | Then assert_exists"accessibility,btn_enter,2" | 参数1：控件类型。参数2：类型取值。参数3：如果是list，代表查找的index索引值 |
+| 断言控件不存在 | Then assert_notExists"accessibility,btn_enter,2" | 参数1：控件类型。参数2：类型取值。参数3：如果是list，代表查找的index索引值 |
+| 断言文本框内容 | When assert_text"accessibility,btn_login,登录账号" | 参数1：控件类型。参数2：类型取值。参数3：断言文本框内容 |
+| 断言控件个数 | When assert_size"accessibility,btn_login,1" | 参数1：控件类型。参数2：类型取值。参数3：断言该控件个数 |
+| 隐藏IOS键盘 | When hideKeyboard_ios"Next" | 点击键盘上的Next按钮 |
+| 调用接口 | When request"login" | 参数1：接口json文件路径 |
+| 切换H5 Context | When change_webview | 当前driver下，从native context切换到H5 context，切换后可以获取并操作H5页面元素 |
+| 切换Native Context | When change_native | 当前driver下，从H5 context，切换回到native context |
 
 ---
 ### 框架使用方法
